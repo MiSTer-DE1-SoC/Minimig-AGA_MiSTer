@@ -1,6 +1,6 @@
 # DE1-SoC Edition of Minimig-AGA_MiSTer
 
-This is a port of the minimig core to DE10-SoC Board [DE10-SoC board](https://github.com/MiSTer-DE1-SoC/Main_MiSTer/wiki).
+This is a port of the minimig core to DE1-SoC Board [DE1-SoC board](https://github.com/MiSTer-DE1-SoC/Main_MiSTer/wiki).
 
 [minimig](http://en.wikipedia.org/wiki/Minimig) (short for Mini Amiga) is an open source re-implementation of an Amiga using a field-programmable gate array (FPGA). Original minimig author is Dennis van Weeren.
 
@@ -40,7 +40,7 @@ Positions are saved in the configuration file. Up to 64 different resolutions ca
 
 
 ### Hardware
-To use this minimig core on the DE10-SoC board, you will at the minimum need an SD/SDHC card, formatted with the FAT32 filesystem, an USB keyboard and a compatible monitor / TV. Joysticks & mouse can be emulated on the keyboard. You will probably want to attach a set of speakers of headphones, a real Amiga or USB mouse and a real Amiga joystick or an USB gamepad. The MiST board is needed too, of course ;)
+To use this minimig core on the DE1-SoC board, you will at the minimum need an SD/SDHC card, formatted with the FAT32 filesystem, an USB keyboard and a compatible monitor / TV. Joysticks & mouse can be emulated on the keyboard. You will probably want to attach a set of speakers of headphones, a real Amiga or USB mouse and a real Amiga joystick or an USB gamepad. The MiST board is needed too, of course ;)
 
 ### Software
 FPGA core releases can be found [here](http://somuch.guru/minimig/minimig-mist/). The latest release available is *minimig-mist-1_2*. The zip file contains a minimig-mist-1_2.rbf file, which is the FPGA core, and a firmware.upg file, which can be used to upgrade the firmware on the ARM microcontroller (usually, there is no need to upgrade the firmware, unless it is specifically mentioned to do so). Both files should be placed on the root of your SD card. If you want this core to be the default, you need to rename it to *core.rbf*.
@@ -68,7 +68,7 @@ Keyboard special keys:
 
 ## Issues & Bug reports
 
-This Project is following the main fork Minimig-Aga Core of Mister, updates follows after porting and testing on DE10-SoC board.
+This Project is following the main fork Minimig-Aga Core of Mister, updates follows after porting and testing on DE1-SoC board.
 
 
 ## Building Minimig-AGA_MiSTer from sources
