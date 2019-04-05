@@ -1,10 +1,6 @@
-# Minimig-AGA_MiSTer
+# DE1-SoC Edition of Minimig-AGA_MiSTer
 
-<img width="1277" alt="Minimig-AGA-DE10-Standard" src="https://user-images.githubusercontent.com/48859672/55279847-dab59100-531d-11e9-85ea-fdffbbeaef6c.png">
-
-<img width="1277" alt="Minimig-AGA-DE10-Standard-Superfrog" src="https://user-images.githubusercontent.com/48859672/55279832-94603200-531d-11e9-84e2-f50ccf775756.png">
-
-This is a port of the minimig core to DE10-Standard Board [DE10-Standard board](https://github.com/MiSTer-DE10-Standard/Main_MiSTer/wiki).
+This is a port of the minimig core to DE10-SoC Board [DE10-SoC board](https://github.com/MiSTer-DE1-SoC/Main_MiSTer/wiki).
 
 [minimig](http://en.wikipedia.org/wiki/Minimig) (short for Mini Amiga) is an open source re-implementation of an Amiga using a field-programmable gate array (FPGA). Original minimig author is Dennis van Weeren.
 
@@ -44,7 +40,7 @@ Positions are saved in the configuration file. Up to 64 different resolutions ca
 
 
 ### Hardware
-To use this minimig core on the DE10-Standard board, you will at the minimum need an SD/SDHC card, formatted with the FAT32 filesystem, an USB keyboard and a compatible monitor / TV. Joysticks & mouse can be emulated on the keyboard. You will probably want to attach a set of speakers of headphones, a real Amiga or USB mouse and a real Amiga joystick or an USB gamepad. The MiST board is needed too, of course ;)
+To use this minimig core on the DE10-SoC board, you will at the minimum need an SD/SDHC card, formatted with the FAT32 filesystem, an USB keyboard and a compatible monitor / TV. Joysticks & mouse can be emulated on the keyboard. You will probably want to attach a set of speakers of headphones, a real Amiga or USB mouse and a real Amiga joystick or an USB gamepad. The MiST board is needed too, of course ;)
 
 ### Software
 FPGA core releases can be found [here](http://somuch.guru/minimig/minimig-mist/). The latest release available is *minimig-mist-1_2*. The zip file contains a minimig-mist-1_2.rbf file, which is the FPGA core, and a firmware.upg file, which can be used to upgrade the firmware on the ARM microcontroller (usually, there is no need to upgrade the firmware, unless it is specifically mentioned to do so). Both files should be placed on the root of your SD card. If you want this core to be the default, you need to rename it to *core.rbf*.
@@ -72,12 +68,12 @@ Keyboard special keys:
 
 ## Issues & Bug reports
 
-This Project is following the main fork Minimig-Aga Core of Mister, updates follows after porting and testing on DE10-Standard board.
+This Project is following the main fork Minimig-Aga Core of Mister, updates follows after porting and testing on DE10-SoC board.
 
 
 ## Building Minimig-AGA_MiSTer from sources
 
-* checkout the source using this [link](https://github.com/MiSTer-DE10-Standard/Minimig-AGA_MiSTer)
+* checkout the source using this [link](https://github.com/MiSTer-DE1-SoC/Minimig-AGA_MiSTer)
 * download / install / build an ARM GCC toolchain (install script [here](http://mist-board.googlecode.com/svn/trunk/tools/install_arm-none-eabi-gcc.sh), or alternatively, download an already build arm-none-eabi-gcc package for you operating system - requires support for ARM7TDMI)
 * download / install [Altera Quartus II](https://dl.altera.com/?edition=web) v17.0
 * if you are using linux and have the $PATH variable properly set up, you can use the Makefile in the root of the project, otherwise build the ARM firmware using your favourite tool / GUI (firmware is in fw/mist), and build the core using Quartus GUI (project file in fpga/mist)
@@ -100,7 +96,7 @@ ARM firmware updates and minimig-tc64 port changes by Christian Vogelsang ([mini
 
 Source of this port is MiSTer project by Sorgelig ([MiSTer](https://github.com/MiSTer-devel)).
 
-Ported for DE10-Standard board by modernhackers.com (https://github.com/MiSTer-DE10-Standard/Minimig-AGA_MiSTer)
+Ported for DE1-SoC board by modernhackers.com (https://github.com/MiSTer-DE1-SoC/Main_MiSTer/wiki)
 
 
 TG68K.C core by Tobias Gubener.
@@ -114,11 +110,11 @@ Somuch Guru [somuch.guru](http://somuch.guru/).
 
 Further info about minimig can be found on the [Minimig Discussion Forum](http://www.minimig.net/).
 
-MiSTer board support & other cores on the [MiSTer DE10-Standard Project Page](https://github.com/MiSTer-DE10-Standard).
+MiSTer board support & other cores on the [MiSTer DE1-SoC Project Page](https://github.com/MiSTer-DE1-SoC).
 
-DE10-Standard board official vendor page [Terasic](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=1081).
+DE1-SoC board official vendor page [Terasic](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836).
 
-## Youtube Videos about Minimg-AGA core in action with DE10-Standard board
+## Youtube Videos about Minimg-AGA core in action with DE1-SoC board
 
 [Superfrog](https://youtu.be/5O-VhoacXCw)
 
