@@ -114,15 +114,6 @@ MiSTer board support & other cores on the [MiSTer DE1-SoC Project Page](https://
 
 DE1-SoC board official vendor page [Terasic](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836).
 
-## Youtube Videos about Minimg-AGA core in action with DE1-SoC board
-
-[Superfrog](https://youtu.be/5O-VhoacXCw)
-
-[Lotus 2](https://youtu.be/1ebB6P-3clY)
-
-[Test Drive 2](https://youtu.be/bFGrN7ovLpM)
-
-
 ## License
 
 Copyright © 2011 - 2016 Rok Krajnc (rok.krajnc@gmail.com)
